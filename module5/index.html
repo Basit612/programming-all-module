@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo</title>
+  <style>
+    h3 {
+      color: aquamarine;
+    }
+    h3:hover{
+      color: brown;
+    }
+    input :focus{
+      color: aquamarine;
+      /* padding-left: 20px; */
+      outline: 0;
+      border: 1px solid beige;
+    }
+
+    a:valid{
+      color: chocolate;
+    }
+
+    /* li:last-child{
+      color: brown;
+    } */
+
+    li:nth-child(2n+1){
+      color: grey;
+    }
+  </style>
+</head>
+<body>
+    <h3>My heading</h3>
+    <input type="text">
+    <br>
+    <a href="https://www.google.com/">Google</a>
+
+
+    <ul>
+      <li>kala</li>
+      <li>jola</li>
+      <li>tola</li>
+      <li>mola</li>
+      <li>kera</li>
+      <li>mora</li>
+      <li>sora</li>
+    </ul>
+</body>
+</html>

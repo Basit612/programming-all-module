@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      border: 1px solid skyblue;
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+
+    .img-container {
+      display: flex;
+    }
+    .img-container div {
+      width: 50%;
+    }
+    .img-container img {
+      width: 100%;
+    }
+
+    @media screen and (max-width:766px){
+      .img-container {
+        flex-direction: column;
+      }
+      .img-container div{
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+   <header>
+     <h1>Responsive Website</h1>
+    <ol>
+      <li>viewport meta tag</li>
+      <li>css relative unit</li>
+      <li>body max width and horizontal center align</li>
+      <li>img fluid</li>
+      <li> tow columm flex and use media query with flex directon column</li>
+      <li>multi column: grid layout</li>
+      <li>menu Responsive: will need javascript</li>
+    </ol>
+   </header>
+
+   <main>
+     <div class="img-container">
+      <div>
+        <img src="https://th.bing.com/th/id/OIP.6d0oKsLp2lcUx_wtbVbz0wHaE5?w=254&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+      </div>
+      <div>
+        <img src="https://th.bing.com/th/id/OIP.Kn2DQYR49AOe5-CPxVFc3gHaGl?w=186&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+      </div>
+     </div>
+   </main>
+</body>
+</html>

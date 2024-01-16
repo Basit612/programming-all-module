@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+}
+
+h1 {
+  color: blueviolet;
+}
+
+h4 {
+  background-color: aquamarine;
+}
+
+p {
+  color: red;
+  width: 50%;
+}
+
+li {
+  color: deepskyblue;
+}
+
+.short {
+  color: powderblue;
+  text-align: center;
+}
+
+.Internal {
+  font-size: large;
+  font-weight: bold;
+}
+
+#player {
+text-align: right;
+}
